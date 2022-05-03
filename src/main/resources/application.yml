@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: xmess-naming-server
+  config:
+    import: optional:configserver:http://xmess-config-server.com:6500
